@@ -5,27 +5,36 @@ h1, h2, h3, h4, h5, h6, li, a, p {
 a {
   text-decoration: none;
   color: inherit;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+a.text-link {
+  font-weight: bold;:
 }
 
 i {
   padding: 10px;
 }
 
-body {
-    background-image: url(images/bg_img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.header {
+  width: 100%;
+  border-bottom: 2px solid black
 }
+
+  .header__heading-container {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
 .main {
   flex-direction: column;
   align-items: center;
   display: flex;
   justify-content: center;
   flex: 10;
-  background-color: rgba(0, 0, 0, 0.75);
-  border-radius: 8%;
-  color: #b4b6ba;
-  padding: 20px;
-  margin: 15% auto 0;
-  width: 320px;
+  padding: 2rem;
 }
