@@ -38,3 +38,7 @@ i {
   flex: 10;
   padding: 2rem;
 }
+
+  .main__cta-links {
+    text-align: center;
+  }
